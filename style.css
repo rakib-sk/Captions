@@ -1,0 +1,71 @@
+body {
+    font-family: 'SolaimanLipi', Arial, sans-serif;
+    max-width: 700px;
+    margin: 20px auto;
+    padding: 0 15px;
+    background: #f9f9f9;
+    color: #222;
+    line-height: 1.6;
+  }
+  header {
+    text-align: center;
+    margin-bottom: 40px;
+  }
+  header h1 {
+    font-size: 2.5rem;
+    color: #2c3e50;
+  }
+  article {
+    background: #fff;
+    padding: 20px 25px;
+    margin-bottom: 30px;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+    border-radius: 8px;
+    position: relative;
+  }
+  article h2 {
+    color: #2980b9;
+    margin-bottom: 10px;
+  }
+  article p {
+    font-size: 1.1rem;
+  }
+  footer {
+    text-align: center;
+    padding: 15px;
+    color: #555;
+    font-size: 0.9rem;
+    border-top: 1px solid #ddd;
+  }
+  button.copy-btn {
+    position: absolute;
+    top: 20px;
+    right: 25px;
+    padding: 6px 12px;
+    background-color: #2980b9;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 0.9rem;
+  }
+  button.copy-btn:hover {
+    background-color: #1f5f8b;
+  }
+  @media (max-width: 480px) {
+    body {
+      padding: 0 10px;
+    }
+    header h1 {
+      font-size: 1.8rem;
+    }
+    article h2 {
+      font-size: 1.3rem;
+    }
+    button.copy-btn {
+      top: 10px;
+      right: 15px;
+      padding: 4px 8px;
+      font-size: 0.8rem;
+    }
+  }
